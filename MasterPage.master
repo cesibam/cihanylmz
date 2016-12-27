@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"  CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="sayfa.css" rel="stylesheet" type="text/css" />
+    
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color:#f0f2f2;">
+    <form id="form1" runat="server">
+    &nbsp;<div class="logo"></div>
+    <div class="blue">
+    <div id="slatenav">
+        <ul>
+            <li><a href="anasayfa.aspx" title="">Ana Sayfa</a></li>
+            <li><a href="hakkimizda.aspx" title="">Hakkımızda</a></li>
+            <li><a href="iletisim.aspx" title="">İletişim</a></li>
+            <li><a href="uye.aspx" title="">Kayıt ol</a></li>
+            <li><a href="Default.aspx" title="">Sınav türü</a></li>
+          <li> 
+              <asp:TextBox ID="urun_arama" 
+                  style="width:200px; margin-top:4px; margin-left:55px;" runat="server" 
+                  CssClass="form-control"  BackColor="White"></asp:TextBox></li>
+           <li><asp:ImageButton ID="ImageButton1" style="margin-top:5px;"  Height="30px" 
+                   ImageUrl="resimler/ara.png" Width="50px" runat="server" 
+                   PostBackUrl="~/anasayfa.aspx"  /></li>
+            
+        </ul>
+    </div>
+</div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+    </form>
+</body>
+</html>

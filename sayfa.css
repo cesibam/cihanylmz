@@ -1,0 +1,159 @@
+﻿
+
+/* ----------------------  ---------------------- */
+.blue #slatenav{ position:relative; display:block; height:42px; font-size:11px; 
+   font-weight:bold;  font-family:Arial,Verdana,Helvitica,sans-serif;text-transform:uppercase;
+    top: 0px;
+    left: 20px;
+    width: 1300px;
+  background-color:#75abde;
+  color:white;
+}
+
+
+
+
+
+#header { height:61px; }
+
+#slider { width:980px; margin-left:-150px; margin-top:450px;  height:418px; position:relative; overflow:hidden; }
+#slider-holder { width:980px; height:410px; position:relative; overflow:hidden; }
+#slider-holder ul{ width:980px; height:410px; position:relative; overflow:hidden; list-style-type: none;}
+#slider-holder .jcarousel-clip{ width:980px; height:418px; position:relative; overflow:hidden; }
+
+#slider-holder ul li{ width:1010px; height:410px; position:relative; overflow:hidden; margin-left:-35px; float:left; display:inline; }
+#slider-nav a{ position:absolute; top:180px; font-size:0; line-height:0; z-index:2;  width:58px; height:58px; text-indent: -4000px;}
+#slider-nav a.prev{ background:url(resimler/prev.gif); left:0;}
+#slider-nav a.next{ background:url(resimler/next.gif); right:0;}
+
+
+
+
+.options { height:47px; white-space:nowrap; padding-top:3px;}
+.options .search{ float:left; padding:6px 0 0 0; background:url(images/border.gif) repeat-y right 0; height:33px; margin-right:12px;}
+.options .search .field{ float:left; width:191px; height:21px; background:url(images/field.gif); padding:6px 5px 0 5px;}
+.options .search .field input{ width:191px; border:0; background:transparent; color:#fff; font-weight: bold;}
+.search-submit{ float:left; font-size:0; line-height:0; width:24px; height:27px; background:url(images/search.gif); text-indent: -4000px; border:0; margin-left:9px; cursor:pointer; position:relative; top:1px; margin-right:13px;}
+
+.options a { color:#636363; text-decoration: underline;}
+.options a:hover { color:#890000; text-decoration: none;}
+.options span.left { padding:10px 0 0 0;}
+.options span.more-links { margin-left:2px;}
+.options span.more-links a{ margin-left:9px;}
+
+
+.blue #slatenav:hover{ }
+.blue #slatenav ul{
+	margin: 0px;
+	padding: 0;
+	list-style-type: none;
+	width: auto;
+	padding-left: 150px;
+	height:70px;
+}
+.hakkimizda{width:780px; height:300px; background-color:rgba(219,219,219,1.00); margin-left:172px; margin-top:-3px; 
+font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+font-size:18px; padding-top:15px; padding-bottom:15px; letter-spacing:2px; word-spacing:10px; padding-left:15px; padding-right:15px; line-height:25px;}
+.kutu{ height:400px;
+			width:880px;
+			
+			margin-left:120px;
+			margin-top:-320px;
+			font-size:24px;
+			background-color:#B3F3DD;
+			border-top-left-radius:10px; border-top-right-radius:10px;
+			border-bottom-left-radius:10px; border-bottom-right-radius:10px;
+			 }
+			 .kutu2{
+				 height:300px;
+				 width:775px; 
+				 margin-left:50px;
+				 color:#FFF;
+				 font-size:25px;
+				 margin-top:20px;}
+			 .p{  font-family:Verdana, Geneva, sans-serif;
+			 font-size:16px;
+			 font-style:}
+			 
+			 .kutu3{height:300px;
+			 width:775px;
+			 }
+			
+			 
+			.kutu4{height:20px;
+			 width:500px;
+			 
+			 margin-top:25px;
+			 margin-left:150px;
+			 }
+			 
+			 .tel{background-color:rgba(219,219,219,1.00); border-style:solid; border-width:1px; height:250px; width:200px;
+margin-left:150px; margin-top:80px; float:left; clear:both; }
+
+.teli{background-color:Red; border-style:solid; border-width:1px; height:400px; width:400px;
+     
+ }
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.fiyati{border-style:solid; font-size:30px; padding-top:15px; padding-left:20px; border-width:1px; margin-top:0px; background-color:rgba(208,255,197,1.00); height:50px; width:520px;}
+ 
+ .fiyatii{border-style:solid; font-size:30px; padding-top:15px; padding-left:100px; border-width:1px; margin-top:0px; background-color:rgba(208,255,197,1.00); height:50px; width:300px;}
+ 
+.fiyat{border-style:solid; border-width:1px; background-color:rgba(219,219,219,1.00); height:50px; width:220px;margin-top:-15px; margin-left:-1px; 
+ }
+ .butonlar{
+	margin-left:400px;
+	margin-top:20px;}
+.logo{ height:200px; width:1250px; border-bottom-left-radius:10px; border-bottom-right-radius:10px;
+border-top-left-radius:10px; margin-top:-70px; border-top-right-radius:10px; background-image:url("resimler/logoo.jpg"); 
+margin-left:50px;
+}
+.l{ padding-left:50px; padding-top:5px;}
+.y{ font-family:Tahoma;
+font-size:20px; color:Black; font-style:italic; padding-top:20px; padding-left:110px;}
+.h{ padding-left:50px; padding-top:15px;}
+.k{ padding-top:20px; margin-left:50px;}
+.ka{ margin-top:10px; margin-left:25px;}
+.btn{ margin-top:10px; padding-left:60px;}
+.s{ margin-top:20px; margin-left:70px;}
+.giris{height:400px;  width:350px; background-color:rgba(219,219,219,1.00); margin-top:50px; margin-left:400px; border-bottom-left-radius:7px; border-bottom-right-radius:7px; border-top-left-radius:7px; border-top-right-radius:7px;}
+.blue #slatenav ul li{ margin-left:100px; display:block;float:left;margin:0 1px 0 0;}
+.blue #slatenav ul li a{display:block; float:left; color:white; text-decoration:none; padding:14px 12px 0 22px; margin-left:50px; height:28px;}
+.blue #slatenav ul li a:hover,.blue #slatenav ul li a.current{color:Black; height:40px; background:white; border-bottom-color:Red; border-bottom-width:2px; border-bottom-style:solid; } 
+/* ----------------------  ---------------------- */
+
+</style>

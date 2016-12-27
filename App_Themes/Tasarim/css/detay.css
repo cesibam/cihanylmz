@@ -1,0 +1,11 @@
+﻿.teli{background-color:rgba(164,255,183,1.00); border-style:solid; border-width:1px; height:400px; width:400px;
+       box-shadow: 3px 3px 4px #000; -moz-box-shadow: 3px 3px 4px #000;-webkit-box-shadow: 3px 3px 4px #000;
+border-top-left-radius:10px; border-top-right-radius:10px; }
+.teli:hover{ background-color:#EAFF35;}
+
+
+.fiyati{border-style:solid; font-size:30px; padding-top:15px; padding-left:20px; border-width:1px; margin-top:0px; background-color:rgba(164,255,183,1.00); height:50px; width:380px;
+   box-shadow: 3px 3px 4px #000; -moz-box-shadow: 3px 3px 4px #000;-webkit-box-shadow: 3px 3px 4px #000;}
+ 
+ .fiyatii{border-style:solid; font-size:30px; padding-top:15px; padding-left:100px; border-width:1px; margin-top:0px; background-color:rgba(164,255,183,1.00); height:50px; width:300px;
+ border-bottom-left-radius:10px; border-bottom-right-radius:10px;  box-shadow: 3px 3px 4px #000; -moz-box-shadow: 3px 3px 4px #000;-webkit-box-shadow: 3px 3px 4px #000;}
